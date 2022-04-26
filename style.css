@@ -1,0 +1,31 @@
+h1 {
+    font-size: 5em;
+}
+
+#headshot {
+    height: 400px;
+}
+
+
+
+/*
+Size Units: 
+px (pixels), 
+em, rem -> relative sizes to the default font settings of a website
+% (percentage), -> relative to the division/group it is in
+in, cm, 
+vh, vw -> relative to the entire website
+*/
+
+/*
+Box Model:
+It goes:
+Most Outside:   Margin -> this is the distance of the element from other elements; pushes other elements away from the specified element
+Middle:         Border -> Outside outline of the space of the element
+Most Inside:    Padding -> Distance from of the element from its border; can be specified as one number: same padding all 4 directions; two numbers: first number is padding up and down second number is padding left and right; four numbers: padding goes top, right, bottom, left
+*/
+
+/*
+An id tag helps you specifically style one element. To specify an id in CSS, start with # before the id
+A class tag helps you style more than one element. To specify an id in CSS, start with . before the class
+*/
