@@ -1,9 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
 h1 {
     font-size: 5em;
 }
 
+div {
+    text-align: center;
+}
+
+
 #headshot {
     height: 400px;
+    width: 200px;
+}
+
+.contact_info {
+    background-color: aliceblue;
 }
 
 
@@ -11,8 +27,8 @@ h1 {
 /*
 Size Units: 
 px (pixels), 
-em, rem -> relative sizes to the default font settings of a website
-% (percentage), -> relative to the division/group it is in
+em, rem -> relative sizes to the default font settings of an element (em stands for element units)
+% (percentage), -> relative to the parent element it is in
 in, cm, 
 vh, vw -> relative to the entire website
 */
@@ -26,6 +42,6 @@ Most Inside:    Padding -> Distance from of the element from its border; can be 
 */
 
 /*
-An id tag helps you specifically style one element. To specify an id in CSS, start with # before the id
-A class tag helps you style more than one element. To specify an id in CSS, start with . before the class
+An id attribute helps you specifically style one element. To specify an id in CSS, start with # before the id
+A class attribute helps you style more than one element. To specify an id in CSS, start with . before the class
 */
