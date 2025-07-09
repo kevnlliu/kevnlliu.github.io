@@ -12,7 +12,7 @@ const WorkHistoryItem = (workItem: any) => {
       },
       {
         threshold: 0.01, // Trigger when 1% of the element is visible
-        rootMargin: "0px 0px -20px 0px", // Adjust when animation triggers
+        rootMargin: "0px 0px -10px 0px", // Adjust when animation triggers
       }
     );
 
