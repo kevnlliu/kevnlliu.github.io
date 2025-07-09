@@ -1,0 +1,30 @@
+#navbar {
+  width: 100vw;
+  height: 73px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+  background-color: rgb(248, 248, 255);
+
+  font-weight: 85;
+  font-size: 15px;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-item {
+  padding: 5px;
+}
+
+.navbar-item:hover {
+  font-weight: 160;
+  background-color: rgb(238, 238, 248);
+  border-radius: 12px;
+}

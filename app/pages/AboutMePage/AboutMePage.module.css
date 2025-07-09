@@ -1,0 +1,88 @@
+#about-me-page {
+  padding: 15px 70px 30px 60px;
+  height: calc(100% - 73px);
+  width: 100%;
+  background-color: rgb(243, 243, 250);
+
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+#about-me-page-card {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-me-page-card-title {
+  padding-left: 5px;
+  font-weight: 650;
+  font-size: 40px;
+}
+
+#about-me-page-card-image-container {
+  min-height: 483px;
+  min-width: 483px;
+  max-height: 483px;
+  max-width: 483px;
+  border-radius: 13px;
+
+  position: relative;
+  text-align: center;
+
+  overflow: hidden;
+}
+
+#about-me-page-card-image-container-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: rgb(248, 248, 255);
+  font-size: 20px;
+  font-weight: 200;
+
+  opacity: 0;
+}
+
+#about-me-page-card-image-container:hover
+  #about-me-page-card-image-container-image {
+  filter: brightness(50%);
+}
+
+#about-me-page-card-image-container:hover
+  #about-me-page-card-image-container-caption {
+  opacity: 1;
+}
+
+#about-me-page-card-image-select {
+  padding: 1.5px 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 85;
+  font-size: 15px;
+}
+
+.about-me-page-card-image-select-circle-selected {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(100, 100, 100);
+}
+
+.about-me-page-card-image-select-circle-unselected {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(180, 180, 180);
+}
+
+#about-me-page-text {
+  padding-top: 80px;
+  font-weight: 200;
+  font-size: 18px;
+}

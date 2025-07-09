@@ -1,0 +1,49 @@
+#introduction {
+  padding: 15px 70px 30px 60px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 250);
+}
+
+#introduction-titles {
+  padding: 0px 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#introduction-titles-main {
+  font-weight: 650;
+  font-size: 40px;
+}
+
+#introduction-titles-sub {
+  font-weight: 500;
+  font-size: 18px;
+  width: 350px;
+}
+
+#introduction-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+#introduction-content-headshot {
+  width: 400px;
+  border-radius: 40px;
+}
+
+#introduction-content-text {
+  padding-top: 50px;
+  padding-right: 50px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+#introduction-content-text-email {
+  color: rgb(0, 114, 177);
+}
